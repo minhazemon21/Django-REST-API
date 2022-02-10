@@ -20,5 +20,6 @@ from webapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('employee/', views.employeeList.as_view()),
-    path('hello/', views.hello)
+    path('hello/', views.hello),
+
 ]
