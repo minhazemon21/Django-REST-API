@@ -13,7 +13,8 @@ import datetime
 
 def hello(request):
     now = datetime.datetime.now()
-    html = "<html><body><h3>Now time is %s.</h3></body></html>" % now
+    html = "<html><body><h3>Now time is %s.</h3><p>Dear Concern I am a regular viewer of this learning website. <br> But, I found a design issue that it show a horizontal overflow in all pages.<br> If it will remove then page looks more fantastic. Kind regards, Minhaz Uddin Emon http://minhazemon21.github.io/minhazemon/</p></body></html>" % now
+
     return HttpResponse(html)  # rendering the template in HttpResponse
 
 class employeeList(APIView):
