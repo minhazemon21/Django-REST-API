@@ -38,7 +38,10 @@
 #             num = num +1
 #         print("\r")
 #
-# n = int(input("Enter row: "))
+# n = int(input("Enter row
+
+#
+# : "))
 # pyrmd(n)
 print("Break\n")
 def newPyramid(n):
